@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+li{
+    list-style: none;
+}
+
+#main-header{
+    height: 100vh;
+    background: url(../img/business.jpg) no-repeat center center/cover;
+}
+
+
+#main-header nav{
+    height: 50px;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+}
+
+#main-header nav .navbar-brand{
+    margin-left: 20px;
+    line-height: 50px;
+}
+
+#main-header ul{
+    display: flex;
+    align-items: center;
+}
+
+
+#main-header ul li a{
+    padding: 10px;
+}
+
+#main-header ul li a:hover{
+    background: #F3CC79;
+}
+
+#main-header .showcase-body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+}
+
+#main-header .showcase-body h2{
+    font-family: 'Merienda One', cursive;
+    margin-bottom: 30px;
+}
+
+#main-header .showcase-body span{
+    color:#192A56 ;
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+#main-header .showcase-body p{
+    font-family:'Exo 2', sans-serif ;
+    color:#8395A7;
+    margin-bottom: 50px;
+}
+
+#main-header .showcase-body .button1{
+    padding: 18px;
+    background: #0A79DF;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+
+
+#main-header .showcase-body .button2{
+    padding: 20px;
+    background:#7B8788;
+    border-radius: 25px;
+    color:#0A79DF
+}
+
+#main-header .showcase-body .button1:hover{
+    background: #99AAAB;
+    color:#0A79DF;
+}
+
+#main-header .showcase-body .button2:hover{
+    background: #0A79DF;
+    color:#99AAAB;
+}
